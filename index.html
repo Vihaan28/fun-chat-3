@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Fun Chat </title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster+Two:ital,wght@1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Fun Chat   <sup>
+	<img src="icon.ico">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="male icon.jpg" onclick="iconchange()" id="user_icon" class="logo">
+	<br>
+	<label> Click on the icon to change to female </label>
+		<h3 >Chat with friends and family in an amazing way</h3>
+		<h4 >Join Fun Chat today</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <br>
+            <input type="text" id="user_name" class="form-control" placeholder="User Name">
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="adduser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+</body>
+</html>
